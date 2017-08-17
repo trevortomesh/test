@@ -1,4 +1,4 @@
 test
 ====
 
-[[https://github.com/trevortomesh/test/img/gen6.png]]
+![My Picture](/img/gen6.png)
