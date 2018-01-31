@@ -1,0 +1,7 @@
+#!/bin/bash
+msp430-gcc -Os -Wall -g -mmcu=msp430g2553 "$1" -o "$2"
+echo "prog" "$2" | mspdebug rf2500
+echo "exit"
+
+echo "Done!"
+echo "There ya go, you dingus!"
